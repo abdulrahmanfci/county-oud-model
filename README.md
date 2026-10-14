@@ -9,9 +9,7 @@ counties: Allegheny and Philadelphia (large urban), Dauphin and Erie
 The model is calibrated separately to each county's annual overdose death rates
 and used to project overdose mortality over a five-year horizon (2025–2029)
 under proportional increases (+10 % / +20 % / +30 %) in naloxone and
-buprenorphine dispensing. This repository accompanies the manuscript listed
-under [Citation](#citation) and is provided for transparency and
-reproducibility of the analytic workflow.
+buprenorphine dispensing.
 
 ---
 
@@ -26,7 +24,7 @@ The analysis runs in two stages:
    Sampling (IMIS). Seven parameters are estimated: three logistic intercepts
    and four covariate slopes. The script writes a posterior resample per county.
 
-2. **Projection / trajectory** (`intervention_trajectory_analysis_v7_stock.R`).
+2. **Projection / trajectory** (`intervention_trajectory_analysis.R`).
    The posterior resamples are loaded, the model is re-run over the warm-up
    years, and death rates are projected to 2029 under naloxone, buprenorphine,
    and combined intervention scenarios. The script saves the observed-and-
@@ -80,7 +78,7 @@ identically in both scripts.
 ```
 .
 ├── calibration_PA.R                            # Stage 1: per-county IMIS calibration
-├── intervention_trajectory_analysis_v7_stock.R # Stage 2: projection + trajectory figures
+├── intervention_trajectory_analysis.R # Stage 2: projection + trajectory figures
 └── README.md
 ```
 
@@ -245,7 +243,7 @@ that county (manuscript eAppendix 3).
 
 The expected covariate-workbook structure is documented above so that users
 with access to equivalent sources can reconstruct the input file.
-
+<!--
 ---
 
 ## Funding and acknowledgments
@@ -258,6 +256,7 @@ of the U.S. National Science Foundation.
 
 The University of Pittsburgh Institutional Review Board determined that this
 study did not constitute human-subjects research.
+-->
 
 ---
 
@@ -283,4 +282,5 @@ BibTeX:
 }
 -->
 
-*A citation will be added here once the manuscript is published.*
+*This manuscript is currently under review; full citation details will be
+provided once the process is finalized.*
