@@ -193,7 +193,7 @@ naloxone dispensing 39–59,893; buprenorphine 1,548–252,863; opioid
    `Philly | Allegheny | Dauphin | Erie | Columbia | Clearfield` and run the
    whole script. Repeat for all six counties. Each run writes
    `routput/imis_resample_<county>2.csv` (plus diagnostic CSVs and plots).
-4. **Project trajectories.** Run `intervention_trajectory_analysis_v7_stock.R`.
+4. **Project trajectories.** Run `intervention_trajectory_analysis.R`.
    It reads the six posterior files from `routput/` and writes the figures to
    `trajectory_results/`.
 
