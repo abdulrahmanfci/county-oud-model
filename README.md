@@ -262,6 +262,23 @@ study did not constitute human-subjects research.
 
 ## Citation
 
+If you use this code, please cite:
+
+Ahmed, A. A., Rahimian, M. A., Chen, Q., & Kumar, P. (2026). Projected Effects of Naloxone and Buprenorphine Scale-Up on Opioid Overdose Mortality in Six Pennsylvania Counties. *medRxiv* [Preprint]. https://doi.org/10.64898/2026.05.11.26352900
+
+```bibtex
+@article{ahmed2026projected,
+  title   = {Projected Effects of Naloxone and Buprenorphine Scale-Up on Opioid
+             Overdose Mortality in Six {Pennsylvania} Counties},
+  author  = {Ahmed, Abdulrahman A. and Rahimian, M. Amin and Chen, Qiushi and
+             Kumar, Praveen},
+  journal = {medRxiv},
+  year    = {2026},
+  doi     = {10.64898/2026.05.11.26352900},
+  url     = {https://doi.org/10.64898/2026.05.11.26352900},
+  note    = {Preprint}
+}
+
 <!--
 This manuscript is currently under peer review. The citation below is a
 placeholder and will be updated upon publication.
@@ -282,5 +299,7 @@ BibTeX:
 }
 -->
 
+<!--
 *This manuscript is currently under review; full citation details will be
 provided once the process is finalized.*
+-->
