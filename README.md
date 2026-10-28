@@ -1,4 +1,4 @@
-# County-Level Heterogeneity in Opioid Harm Reduction and Treatment Effects: A Simulation Modeling Analysis
+# Projected Effects of Naloxone and Buprenorphine Scale-Up on Opioid Overdose Mortality in Six Pennsylvania Counties
 
 R code for a Bayesian-calibrated Markov cohort model that estimates
 **county-specific** effects of harm-reduction (naloxone) and treatment
